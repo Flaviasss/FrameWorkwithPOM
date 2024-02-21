@@ -1,0 +1,250 @@
+2024-02-21 09:38:03 INFO  [main] Utilities.ListenerUtility ListenerUtility.java:61 - Regression Test ...... has Started......
+2024-02-21 09:38:03 INFO  [main] base.BaseTest BaseTest.java:51 - ...............Before method SetupBeforeMethod started......
+2024-02-21 09:38:10 INFO  [main] base.BaseTest BaseTest.java:110 - https://tekarch151-dev-ed.develop.my.salesforce.comis entered
+2024-02-21 09:38:10 INFO  [main] Utilities.ListenerUtility ListenerUtility.java:30 - success_login.......test execution started........
+2024-02-21 09:38:10 INFO  [main] automationtests.AutomationScripts AutomationScripts.java:52 - *******************Automation Started*********************
+2024-02-21 09:38:10 ERROR [main] Utilities.ListenerUtility ListenerUtility.java:43 - success_logintest execution completed with  failure
+2024-02-21 09:38:10 ERROR [main] Utilities.ListenerUtility ListenerUtility.java:47 - .......test execution completed with failure........
+2024-02-21 09:38:10 ERROR [main] base.BaseTest BaseTest.java:138 - Unable to capture the screen
+java.io.FileNotFoundException: C:\Users\flavi\eclipse-workspace\SeleniumAutomationFrameWorkPOM\screenshots\2024_02_21_09_38_10.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:192) ~[guava-25.0-jre.jar:?]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:180) ~[guava-25.0-jre.jar:?]
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:268) ~[guava-25.0-jre.jar:?]
+	at com.google.common.io.Files.copy(Files.java:319) ~[guava-25.0-jre.jar:?]
+	at com.SalesForce.base.BaseTest.takescreenshot(BaseTest.java:132) ~[test-classes/:?]
+	at com.SalesForce.Utilities.ListenerUtility.onTestFailure(ListenerUtility.java:49) ~[test-classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:99) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:764) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.2.1.jar:3.2.1]
+2024-02-21 09:38:10 INFO  [main] base.BaseTest BaseTest.java:115 - browser instance closed
+2024-02-21 09:38:10 INFO  [main] base.BaseTest BaseTest.java:60 - ............TeardownAfterMethod Executed
+2024-02-21 09:38:10 INFO  [main] Utilities.ListenerUtility ListenerUtility.java:69 - Regression Test ...... has ended......
+2024-02-21 09:41:53 INFO  [main] Utilities.ListenerUtility ListenerUtility.java:61 - Regression Test ...... has Started......
+2024-02-21 09:41:53 INFO  [main] base.BaseTest BaseTest.java:51 - ...............Before method SetupBeforeMethod started......
+2024-02-21 09:41:58 INFO  [main] base.BaseTest BaseTest.java:110 - https://tekarch151-dev-ed.develop.my.salesforce.comis entered
+2024-02-21 09:41:58 INFO  [main] Utilities.ListenerUtility ListenerUtility.java:30 - success_login.......test execution started........
+2024-02-21 09:41:58 INFO  [main] automationtests.AutomationScripts AutomationScripts.java:52 - *******************Automation Started*********************
+2024-02-21 09:41:58 ERROR [main] Utilities.ListenerUtility ListenerUtility.java:43 - success_logintest execution completed with  failure
+2024-02-21 09:41:58 ERROR [main] Utilities.ListenerUtility ListenerUtility.java:47 - .......test execution completed with failure........
+2024-02-21 09:41:58 ERROR [main] base.BaseTest BaseTest.java:138 - Unable to capture the screen
+java.io.FileNotFoundException: C:\Users\flavi\eclipse-workspace\SeleniumAutomationFrameWorkPOM\screenshots\2024_02_21_09_41_58.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:192) ~[guava-25.0-jre.jar:?]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:180) ~[guava-25.0-jre.jar:?]
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:268) ~[guava-25.0-jre.jar:?]
+	at com.google.common.io.Files.copy(Files.java:319) ~[guava-25.0-jre.jar:?]
+	at com.SalesForce.base.BaseTest.takescreenshot(BaseTest.java:132) ~[test-classes/:?]
+	at com.SalesForce.Utilities.ListenerUtility.onTestFailure(ListenerUtility.java:49) ~[test-classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:99) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:764) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.2.1.jar:3.2.1]
+2024-02-21 09:41:58 INFO  [main] base.BaseTest BaseTest.java:115 - browser instance closed
+2024-02-21 09:41:58 INFO  [main] base.BaseTest BaseTest.java:60 - ............TeardownAfterMethod Executed
+2024-02-21 09:41:58 INFO  [main] Utilities.ListenerUtility ListenerUtility.java:69 - Regression Test ...... has ended......
+2024-02-21 09:43:13 INFO  [main] Utilities.ListenerUtility ListenerUtility.java:61 - Regression Test ...... has Started......
+2024-02-21 09:43:13 INFO  [main] base.BaseTest BaseTest.java:51 - ...............Before method SetupBeforeMethod started......
+2024-02-21 09:43:18 INFO  [main] base.BaseTest BaseTest.java:110 - https://tekarch151-dev-ed.develop.my.salesforce.comis entered
+2024-02-21 09:43:18 INFO  [main] Utilities.ListenerUtility ListenerUtility.java:30 - success_login.......test execution started........
+2024-02-21 09:43:18 INFO  [main] automationtests.AutomationScripts AutomationScripts.java:52 - *******************Automation Started*********************
+2024-02-21 09:43:18 ERROR [main] Utilities.ListenerUtility ListenerUtility.java:43 - success_logintest execution completed with  failure
+2024-02-21 09:43:18 ERROR [main] Utilities.ListenerUtility ListenerUtility.java:47 - .......test execution completed with failure........
+2024-02-21 09:43:18 ERROR [main] base.BaseTest BaseTest.java:138 - Unable to capture the screen
+java.io.FileNotFoundException: C:\Users\flavi\eclipse-workspace\SeleniumAutomationFrameWorkPOM\screenshots\2024_02_21_09_43_18.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:192) ~[guava-25.0-jre.jar:?]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:180) ~[guava-25.0-jre.jar:?]
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:268) ~[guava-25.0-jre.jar:?]
+	at com.google.common.io.Files.copy(Files.java:319) ~[guava-25.0-jre.jar:?]
+	at com.SalesForce.base.BaseTest.takescreenshot(BaseTest.java:132) ~[test-classes/:?]
+	at com.SalesForce.Utilities.ListenerUtility.onTestFailure(ListenerUtility.java:49) ~[test-classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:99) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:764) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.2.1.jar:3.2.1]
+2024-02-21 09:43:18 INFO  [main] base.BaseTest BaseTest.java:115 - browser instance closed
+2024-02-21 09:43:18 INFO  [main] base.BaseTest BaseTest.java:60 - ............TeardownAfterMethod Executed
+2024-02-21 09:43:18 INFO  [main] Utilities.ListenerUtility ListenerUtility.java:69 - Regression Test ...... has ended......
+2024-02-21 09:51:31 INFO  [main] Utilities.ListenerUtility ListenerUtility.java:61 - Regression Test ...... has Started......
+2024-02-21 09:51:31 INFO  [main] base.BaseTest BaseTest.java:51 - ...............Before method SetupBeforeMethod started......
+2024-02-21 09:51:35 INFO  [main] base.BaseTest BaseTest.java:110 - https://tekarch151-dev-ed.develop.my.salesforce.comis entered
+2024-02-21 09:51:35 INFO  [main] Utilities.ListenerUtility ListenerUtility.java:30 - success_login.......test execution started........
+2024-02-21 09:51:35 INFO  [main] automationtests.AutomationScripts AutomationScripts.java:53 - *******************Automation Started*********************
+2024-02-21 09:51:35 ERROR [main] Utilities.ListenerUtility ListenerUtility.java:43 - success_logintest execution completed with  failure
+2024-02-21 09:51:35 ERROR [main] Utilities.ListenerUtility ListenerUtility.java:47 - .......test execution completed with failure........
+2024-02-21 09:51:35 ERROR [main] base.BaseTest BaseTest.java:138 - Unable to capture the screen
+java.io.FileNotFoundException: C:\Users\flavi\eclipse-workspace\SeleniumAutomationFrameWorkPOM\screenshots\2024_02_21_09_51_35.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:192) ~[guava-25.0-jre.jar:?]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:180) ~[guava-25.0-jre.jar:?]
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:268) ~[guava-25.0-jre.jar:?]
+	at com.google.common.io.Files.copy(Files.java:319) ~[guava-25.0-jre.jar:?]
+	at com.SalesForce.base.BaseTest.takescreenshot(BaseTest.java:132) ~[test-classes/:?]
+	at com.SalesForce.Utilities.ListenerUtility.onTestFailure(ListenerUtility.java:49) ~[test-classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:99) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:764) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.2.1.jar:3.2.1]
+2024-02-21 09:51:36 INFO  [main] base.BaseTest BaseTest.java:115 - browser instance closed
+2024-02-21 09:51:36 INFO  [main] base.BaseTest BaseTest.java:60 - ............TeardownAfterMethod Executed
+2024-02-21 09:51:36 INFO  [main] Utilities.ListenerUtility ListenerUtility.java:69 - Regression Test ...... has ended......
+2024-02-21 09:52:25 INFO  [main] Utilities.ListenerUtility ListenerUtility.java:61 - Regression Test ...... has Started......
+2024-02-21 09:52:25 INFO  [main] base.BaseTest BaseTest.java:51 - ...............Before method SetupBeforeMethod started......
+2024-02-21 09:52:29 INFO  [main] base.BaseTest BaseTest.java:110 - https://tekarch151-dev-ed.develop.my.salesforce.comis entered
+2024-02-21 09:52:29 INFO  [main] Utilities.ListenerUtility ListenerUtility.java:30 - success_login.......test execution started........
+2024-02-21 09:52:29 INFO  [main] automationtests.AutomationScripts AutomationScripts.java:53 - *******************Automation Started*********************
+2024-02-21 09:52:29 ERROR [main] Utilities.ListenerUtility ListenerUtility.java:43 - success_logintest execution completed with  failure
+2024-02-21 09:52:29 ERROR [main] Utilities.ListenerUtility ListenerUtility.java:47 - .......test execution completed with failure........
+2024-02-21 09:52:29 ERROR [main] base.BaseTest BaseTest.java:138 - Unable to capture the screen
+java.io.FileNotFoundException: C:\Users\flavi\eclipse-workspace\SeleniumAutomationFrameWorkPOM\screenshots\2024_02_21_09_52_29.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:192) ~[guava-25.0-jre.jar:?]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:180) ~[guava-25.0-jre.jar:?]
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:268) ~[guava-25.0-jre.jar:?]
+	at com.google.common.io.Files.copy(Files.java:319) ~[guava-25.0-jre.jar:?]
+	at com.SalesForce.base.BaseTest.takescreenshot(BaseTest.java:132) ~[test-classes/:?]
+	at com.SalesForce.Utilities.ListenerUtility.onTestFailure(ListenerUtility.java:49) ~[test-classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:99) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:764) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.2.1.jar:3.2.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.2.1.jar:3.2.1]
+2024-02-21 09:52:29 INFO  [main] base.BaseTest BaseTest.java:115 - browser instance closed
+2024-02-21 09:52:29 INFO  [main] base.BaseTest BaseTest.java:60 - ............TeardownAfterMethod Executed
+2024-02-21 09:52:29 INFO  [main] Utilities.ListenerUtility ListenerUtility.java:69 - Regression Test ...... has ended......
